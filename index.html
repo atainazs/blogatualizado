@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Soy Luna</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Dancing+Script:wght@700&family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="home-page" class="page active">
+        <header class="header-container">
+            <img class="banner-img" src="https://br.web.img2.acsta.net/r_1920_1080/pictures/22/05/06/06/19/5889546.jpg" alt="Soy Luna Banner">
+            
+            <h1 class="main-title">A história da Novela Soy Luna</h1>
+            
+            <h2 class="main-subtitle">Curiosidades sobre a novela mexicana Soy Luna e os protagonistas Karol Sevilla e Ruggero Pasquarelli</h2>
+        </header>
+
+        <main class="content-container">
+            <section class="topic-section">
+                <h3 class="topic-title">Como foi a trajetória da novela Soy Luna?</h3>
+                <div class="topic-text">
+                    <p>
+                        <strong>Soy Luna</strong> é uma telenovela juvento-musical latino-americana produzida pela Pol-ka Producciones em parceria com o Disney Channel América Latina. Criada por Jorge Edelstein, a série estreou em 14 de março de 2016 e rapidamente se tornou um fenômeno mundial de audiência e cultura pop.
+                    </p>
+                    <p>
+                        A história acompanha Luna Valente, uma jovem mexicana apaixonada por patinação artística que vê sua vida virar de cabeça para baixo quando seus pais recebem uma proposta irrecusável de trabalho e a família precisa se mudar para Buenos Aires, na Argentina. Lá, Luna precisa se adaptar a uma nova escola de elite, fazer novos amigos e lidar com desafios, ao mesmo tempo em que descobre o <em>Jam & Roller</em> — uma pista de patinação onde ela pode realizar seus sonhos e viver sua paixão sobre rodas.
+                    </p>
+                    <p>
+                        Desenvolvida ao longo de 3 temporadas e 220 episódios, a produção combinou drama, romance, mistério sobre o passado de Luna e números musicais incríveis sobre patins. O sucesso estrondoso resultou em várias turnês internacionais de shows lotados pela América Latina e Europa, milhões de discos vendidos e múltiplos prêmios no Kids' Choice Awards.
+                    </p>
+                </div>
+            </section>
+
+            <section class="cast-section">
+                <img class="cast-img" src="https://cartaodevisita.r7.com/upload/upload_img/SouLuna.jpg" alt="Elenco de Soy Luna">
+                
+                <div class="cast-footer">
+                    <div class="interactive-buttons left">
+                        <button class="btn-action like-btn" onclick="animateButton(this)" title="Curtir">❤️</button>
+                        <button class="btn-action thumbs-btn" onclick="animateButton(this)" title="Gostei">👍</button>
+                        <button class="btn-action dislike-btn" onclick="animateButton(this)" title="Não gostei">👎</button>
+                    </div>
+
+                    <div class="cast-caption right">
+                        Elenco da novela Soy Luna.
+                    </div>
+                </div>
+            </section>
+
+            <section class="protagonists-section">
+                <h3 class="call-title">Quer conhecer um pouco sobre os protagonistas de Soy Luna?</h3>
+                <h4 class="call-action">CLIQUE NAS IMAGENS!</h4>
+
+                <div class="protagonists-grid">
+                    <div class="protagonist-card karol-card" onclick="openProtagonist('karol-page')">
+                        <img src="https://www.voici.fr/imgre/fit/~1~prismamedia_people~2017~06~30~798a1907-3367-4b5b-95b8-69704d4f0f07.jpeg/1200x900/focusPoint/50%2C50/karol-sevilla.jpg" alt="Karol Sevilla" class="protagonist-img">
+                        <p class="protagonist-name karol-text">Atriz Karol Sevilla</p>
+                    </div>
+
+                    <div class="protagonist-card ruggero-card" onclick="openProtagonist('ruggero-page')">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdzMLGGTCm_SfGwVrTRLtPQZ1X5Ou1eN6BcwMMM4dS7HyGEd1UoLro6T8x&s=10" alt="Ruggero Pasquarelli" class="protagonist-img">
+                        <p class="protagonist-name ruggero-text">Ator Ruggero Pasquarelli</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="blog-footer">
+            CRIADO POR: Tainá Rodrigues, Blog de Soy Luna atualizado.
+        </footer>
+    </div>
+
+
+    <div id="karol-page" class="page">
+        <header class="page-header">
+            <button class="back-button" onclick="showPage('home-page')">⬅️ Voltar para Soy Luna</button>
+            <h1 class="page-title">A vida de Karol Sevilla.</h1>
+            
+            <div class="interactive-buttons center">
+                <button class="btn-action like-btn" onclick="animateButton(this)" title="Curtir">❤️</button>
+                <button class="btn-action thumbs-btn" onclick="animateButton(this)" title="Gostei">👍</button>
+                <button class="btn-action dislike-btn" onclick="animateButton(this)" title="Não gostei">👎</button>
+            </div>
+        </header>
+
+        <main class="content-container">
+            <article class="bio-article">
+                <p>
+                    <strong>Karol Itzitery Piña Cisneros</strong>, conhecida mundialmente como <strong>Karol Sevilla</strong>, nasceu na Cidade do México em 9 de novembro de 1999. Desde muito pequena demonstrou uma paixão gigante pelas artes cênicas, iniciando sua carreira em comerciais de televisão e participações em programas da Televisa, como a famosa série <em>La Rosa de Guadalupe</em>.
+                </p>
+                <p>
+                    O grande divisor de águas em sua vida aconteceu aos 15 anos, quando foi escolhida entre milhares de jovens para dar vida à protagonista <strong>Luna Valente / Sol Benson</strong> na superprodução <em>Soy Luna</em>. Para assumir o papel, Karol teve que mudar-se para Buenos Aires, aprender a patinar profissionalmente em tempo recorde e encarar uma rotina intensa de gravações e ensaios musicais.
+                </p>
+                <p>
+                    Sua interpretação carismática conquistou corações no mundo inteiro. Após o encerramento da novela, Karol consolidou-se como cantora solo de grande sucesso, lançando hits como "Tus Besos", "Desde Hoy" (para a franquia de princesas da Disney) e participando de novas produções marcantes como a série <em>Siempre Fui Yo</em> no Disney+.
+                </p>
+
+                <div class="bio-img-container">
+                    <img src="https://www.riosil.com.ar/images/blog/karol-sevilla.jpg" alt="Karol Sevilla Blog" class="bio-img">
+                </div>
+            </article>
+        </main>
+    </div>
+
+
+    <div id="ruggero-page" class="page">
+        <header class="page-header">
+            <button class="back-button" onclick="showPage('home-page')">⬅️ Voltar para Soy Luna</button>
+            <h1 class="page-title">A vida de Ruggero Pasquarelli.</h1>
+            
+            <div class="interactive-buttons center">
+                <button class="btn-action like-btn" onclick="animateButton(this)" title="Curtir">❤️</button>
+                <button class="btn-action thumbs-btn" onclick="animateButton(this)" title="Gostei">👍</button>
+                <button class="btn-action dislike-btn" onclick="animateButton(this)" title="Não gostei">👎</button>
+            </div>
+        </header>
+
+        <main class="content-container">
+            <article class="bio-article">
+                <p>
+                    <strong>Ruggero Pasquarelli</strong> nasceu em Città Sant'Angelo, na Itália, em 10 de setembro de 1993. Cantor, ator e compositor talentoso, ele começou seu caminho no meio artístico ao participar da quarta temporada da versão italiana do reality show <em>The X Factor</em> em 2010.
+                </p>
+                <p>
+                    Sua estreia na Disney ocorreu em 2012 na novela <em>Violetta</em>, interpretando o personagem Federico. Mas foi em 2016 que Ruggero alcançou o estrelato internacional absoluto ao interpretar o mauricinho talentoso <strong>Matteo Balsano</strong> em <em>Soy Luna</em>, forming o par romântico inesquecível "Lutteo" ao lado de Karol Sevilla.
+                </p>
+                <p>
+                    Além de atuar, Ruggero destacou-se ao compor canções para a trilha sonora da série e encantar o público nas turnês mundiais com sua voz potente e presença de palco. Atualmente, ele foca em sua carreira musical solo sob o nome artístico <strong>RUGGERO</strong>, lançando álbuns autorais e realizando turnês bem-sucedidas por toda a América Latina e Europa.
+                </p>
+
+                <div class="bio-img-container">
+                    <img src="https://m.media-amazon.com/images/M/MV5BYTM3MmY2MjktY2YwNS00MmZlLWI3MzUtYmY3OTQzZjc1ZjA1XkEyXkFqcGc@._V1_.jpg" alt="Ruggero Pasquarelli" class="bio-img">
+                </div>
+            </article>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
